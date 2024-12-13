@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly in this code snippet, leading to unexpected layout issues. Specifically, the `calc(100% - 20px)` calculation is not working as expected when the parent container's width is less than 20px.  This results in a negative width being applied to the child element, causing it to collapse.
